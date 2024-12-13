@@ -5,10 +5,9 @@ def last_char_of_string(s):
         return ""  # Return an empty string for empty input
 
 if __name__ == "__main__":
-    a_string = input("Enter a string: ")
+    a_string = input("Enter a string: ")  # Remove int() here
     last_char = last_char_of_string(a_string)
     if last_char:
-      
-      print("The last character of the string is:",last_char)
+        print("The last character of the string is:", last_char)
     else:
-      print("The string is empty.") 
+        print("The string is empty.")
